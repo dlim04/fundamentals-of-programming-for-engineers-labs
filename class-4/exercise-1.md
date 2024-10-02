@@ -41,5 +41,5 @@ public class UkTaxCalculator {
 }
 ```
 
-However, this code contains errors.
+However, this code does not compile due to multiple errors.
 Your task is to fix this code so that it works as intended.
