@@ -6,7 +6,8 @@ cmd /c code --install-extension redhat.java --install-extension visualstudioexpt
 
 echo Extensions installed sucessfully!
 
-echo "Configuring Java path..."
+echo Configuring Java path...
+
 (echo {
 echo    "redhat.telemetry.enabled": false,
 echo    "java.configuration.runtimes": [
@@ -19,9 +20,9 @@ echo    ]
 echo }
 ) > "%appdata%\Code\User\settings.json"
 
-echo "Java path correctly defined!"
+echo Java path correctly defined!
 
-echo "Complete!"
+echo Complete!
 
 pause
 exit 1
