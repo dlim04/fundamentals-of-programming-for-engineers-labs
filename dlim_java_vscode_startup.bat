@@ -1,6 +1,10 @@
 @echo off
 
-cmd /c code
+echo Starting VSCode and installing extensions...
+
+cmd /c code --install-extension redhat.java --install-extension visualstudioexptteam.vscodeintellicode --install-extension vscjava.vscode-java-debug --install-extension vscjava.vscode-java-dependency --install-extension vscjava.vscode-java-test
+
+echo Extensions installed sucessfully!
 
 echo "Configuring Java path..."
 (echo {
@@ -16,11 +20,8 @@ echo }
 ) > "%appdata%\Code\User\settings.json"
 
 echo "Java path correctly defined!"
-echo ""
-echo "Installing VSCode extensions..."
-
-code --install-extension redhat.java --install-extension visualstudioexptteam.vscodeintellicode --install-extension vscjava.vscode-java-debug --install-extension vscjava.vscode-java-dependency --install-extension vscjava.vscode-java-test
 
 echo "Complete!"
+
 pause
 exit 1
