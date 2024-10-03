@@ -42,3 +42,5 @@ public class TemperatureConverter {
 $`KE = \frac{1}{2} m v^2`$
 
 $`s = ut + \frac{1}{2} at^2`$
+
+$`U_{out} = \frac{U_{in} \cdot R_2}{R_1 + R_2}`$
