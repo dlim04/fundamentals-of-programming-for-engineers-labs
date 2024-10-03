@@ -29,7 +29,7 @@ public class TemperatureConverter {
 4. Complete the code so that the program takes in an value of temperature in celsius by the terminal and outputs the value in Farenheit.
 
 > [!TIP]
-> $`F = C x \frac{9}{5} + 32`$
+> $`F = C \times \frac{9}{5} + 32`$
 
 5. Do this again but Farenheit to Kelvin.
 
