@@ -5,8 +5,6 @@
 ```java
 public class Characters {
     public static void main(String[] args) throws Exception {
-        
-
         char character = '9' + '!';
 
         System.out.println(character);
