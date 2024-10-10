@@ -1,4 +1,4 @@
-# Exercise 2
+# Exercise 3
 
 ## Task 1 - Integer Overflow and Underflow
 
