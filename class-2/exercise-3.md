@@ -7,7 +7,7 @@
 public class Overflow {
     public static void main(String[] args) throws Exception {
         
-        byte var1 = 127;
+        byte value = 127;
         value = (byte) (value + 1);
         System.out.println(value);
     }
