@@ -11,7 +11,7 @@ public class Characters {
     }
 }
 ```
-2. Write down using pen and paper the output you'd expect from the program.
+2. Using pen and paper, write down the output you'd expect from the program.
 3. Create a new source file by right clicking `src` in the Explorer tab in Visual Studio Code and click `New File...`
 4. Name the file `Characters.java`
 5. Copy and paste in the code and run it. Was the outcome what you expected?
