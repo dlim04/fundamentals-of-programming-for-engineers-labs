@@ -19,6 +19,6 @@ public class Characters {
 5. Copy and paste in the code and run it. Was the outcome what you expected?
 
 ## Part 2 - Do it by hand
-1. Use an (ASCII table)[https://en.cppreference.com/w/cpp/language/ascii] to write out the values of `7` and `B` using both a decimal number and an 8 bit binary numbers.
+1. Use an [ASCII table](https://en.cppreference.com/w/cpp/language/ascii) to write out the values of `7` and `B` using both a decimal number and an 8 bit binary numbers.
 2. Add the values together in both decimal and binary.
 3. Convert the result to a character using the ASCII table.
