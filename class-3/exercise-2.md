@@ -1,5 +1,5 @@
 # Exercise 2 
-Consider the logic gate diagram and implement the boolean logic in Java. Find a correct configuration of A B and C to make the output true -  use an if statement to check! The inputs have been done to start off.
+Consider the logic gate diagram and implement the boolean logic in Java. Find a correct configuration of A, B and C to make the output true -  use an if statement to check! The inputs have been done to start off.
 (It may help to write down the truth tables for the circuit)
 
 
