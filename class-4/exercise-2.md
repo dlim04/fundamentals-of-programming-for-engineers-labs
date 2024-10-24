@@ -32,7 +32,7 @@ are needed for this task.
 
 You can read in a character from the scanner as shown below:
 ```java
-Scanner in = new Scanner();
+Scanner in = new Scanner(System.in);
 
 char c1 = in.next().charAt(0);
 ```
