@@ -31,7 +31,7 @@ The dietary preference and meal time should both be characters. No other variabl
 are needed for this task.
 
 Use nested `if` statements to suggest meals:
-- If vegetarian (`g`):
+- If vegetarian (`v`):
     - If meal time is breakfast (`b`), suggest porridge
     - If lunch (`l`), suggest a salad
     - If dinner (`d`), suggest vegetable stir-fry
