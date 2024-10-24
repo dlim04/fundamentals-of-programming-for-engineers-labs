@@ -4,7 +4,7 @@
 
 ### Problem Statement
 
-You are given a Java program that determines the output of a digital circuit 
+The following Java code simultes a digital circuit where the output of a digital circuit 
 based on four binary inputs \( A, B, C, D \). The current implementation uses 
 a series of nested `if` statements that are not optimized. Your task is to 
 simplify the logic using Karnaugh maps and rewrite the program using only `if` 
@@ -91,18 +91,38 @@ public class DigitalCircuit {
 
 ## Tasks
 
-1. **Construct the Karnaugh Map**: Create a Karnaugh map for the given logic to 
-identify and eliminate redundancies.
-2. **Simplify the Logic**: Use the Karnaugh map to derive the simplified 
+1. **Complete the following truth table** for the above code:
+| Decimal | A | B | C | D | O |
+| ------- | - | - | - | - | - |
+|    0    | 0 | 0 | 0 | 0 |   |
+|    1    | 0 | 0 | 0 | 1 |   |
+|    2    | 0 | 0 | 1 | 0 |   |
+|    3    | 0 | 0 | 1 | 1 |   |
+|    4    | 0 | 1 | 0 | 0 |   |
+|    5    | 0 | 1 | 0 | 1 |   |
+|    6    | 0 | 1 | 1 | 0 |   |
+|    7    | 0 | 1 | 1 | 1 |   |
+|    8    | 1 | 0 | 0 | 0 |   |
+|    9    | 1 | 0 | 0 | 1 |   |
+|    10   | 1 | 0 | 1 | 0 |   |
+|    11   | 1 | 0 | 1 | 1 |   |
+|    12   | 1 | 1 | 0 | 0 |   |
+|    13   | 1 | 1 | 0 | 1 |   |
+|    14   | 1 | 1 | 1 | 0 |   |
+|    15   | 1 | 1 | 1 | 1 |   |
+
+2. **Use the truth table to complete the following Karnaugh map**:
+| AB\CD | 00 | 01 | 11 | 10 |
+| ----- |  - |  - |  - |  - |
+|   00  |    |    |    |    |
+|   01  |    |    |    |    |
+|   11  |    |    |    |    |
+|   10  |    |    |    |    |
+
+4. **Simplify the Logic**: Use the Karnaugh map to derive the simplified 
 Boolean expression.
-3. **Rewrite the Code**: Implement the simplified logic using only if 
+5. **Rewrite the Code**: Implement the simplified logic using only if 
 statements.
-
-## Hints
-
-- The Karnaugh map will help you visualize and simplify the logic by grouping 
-adjacent ones.
-- Look for common patterns and use Boolean algebra to simplify the expression.
 
 ## Expected Output
 
