@@ -30,6 +30,13 @@ time (breakfast, lunch, dinner).
 The dietary preference and meal time should both be characters. No other variables
 are needed for this task.
 
+You can read in a character from the scanner as shown below:
+```java
+Scanner in = new Scanner();
+
+char c1 = in.next().charAt(0);
+```
+
 Use nested `if` statements to suggest meals:
 - If vegetarian (`v`):
     - If meal time is breakfast (`b`), suggest porridge
