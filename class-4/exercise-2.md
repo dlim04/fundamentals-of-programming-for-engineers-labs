@@ -27,18 +27,18 @@ Design a meal planner that suggests meals based on dietary preferences.
 Prompt the user for their dietary preference (vegetarian or vegan) and a meal 
 time (breakfast, lunch, dinner).
 
-The dietary preference and meal time should both be strings. No other variables
+The dietary preference and meal time should both be characters. No other variables
 are needed for this task.
 
 Use nested `if` statements to suggest meals:
-- If vegetarian:
-    - If meal time is breakfast, suggest porridge
-    - If lunch, suggest a salad
-    - If dinner, suggest vegetable stir-fry
-- If vegan:
-    - If meal time is breakfast, suggest fruit salad
-    - If lunch, suggest a quinoa bowl
-    - If dinner, suggest lentil curry
+- If vegetarian (`g`):
+    - If meal time is breakfast (`b`), suggest porridge
+    - If lunch (`l`), suggest a salad
+    - If dinner (`d`), suggest vegetable stir-fry
+- If vegan (`g`):
+    - If meal time is breakfast (`b`), suggest fruit salad
+    - If lunch (`l`), suggest a quinoa bowl
+    - If dinner (`d`), suggest lentil curry
 - If another preference is specified:
     - Print "Unsupported dietary preference! Please specify a valid dietary
       preference."
