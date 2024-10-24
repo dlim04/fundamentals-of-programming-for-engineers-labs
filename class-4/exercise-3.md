@@ -92,6 +92,7 @@ public class DigitalCircuit {
 ## Tasks
 
 1. **Complete the following truth table** for the above code:
+
 | Decimal | A | B | C | D | O |
 | ------- | - | - | - | - | - |
 |    0    | 0 | 0 | 0 | 0 |   |
@@ -112,6 +113,7 @@ public class DigitalCircuit {
 |    15   | 1 | 1 | 1 | 1 |   |
 
 2. **Use the truth table to complete the following Karnaugh map**:
+
 | AB\CD | 00 | 01 | 11 | 10 |
 | ----- |  - |  - |  - |  - |
 |   00  |    |    |    |    |
