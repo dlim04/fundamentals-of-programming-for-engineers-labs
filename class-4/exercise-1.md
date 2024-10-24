@@ -11,7 +11,8 @@ A UK tax calculator is to be created using the following tax bands:
 | Higher rate         | £50,271 to £125,140      | 40%      |
 | Additional rate     | Over £125,140            | 45%      |
 
-The following Java code was used to implement this, printing the total tax after calculating it:
+Some Java code was created to implement this, which calculates the total tax
+owed and prints the total. The code is as follows:
 
 ```java
 public class UkTaxCalculator {
@@ -41,5 +42,10 @@ public class UkTaxCalculator {
 }
 ```
 
-However, this code does not compile due to multiple errors.
-Your task is to fix this code so that it works as intended.
+### Your Task
+When trying to run this code in VS Code, it does not compile and
+throws multiple errors. Your task is to copy this task into your IDE and fix
+the compilation errors.
+
+NB: The salary calculations are correct, it is only compilation errors that
+need fixed.
