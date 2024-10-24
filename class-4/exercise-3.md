@@ -15,37 +15,37 @@ statements.
 ```java
 public class DigitalCircuit {
     public static void main(String[] args) {
-        int A = 1; // Example values
-        int B = 0;
-        int C = 1;
-        int D = 0;
+        boolean A = true; // Example values
+        boolean B = false;
+        boolean C = true;
+        boolean D = false;
 
         int output = 0;
 
-        if (A == 1) {
-            if (B == 1) {
-                if (C == 1) {
-                    if (D == 1) {
+        if (A) {
+            if (B) {
+                if (C) {
+                    if (D) {
                         output = 1;
                     } else {
                         output = 0;
                     }
                 } else {
-                    if (D == 1) {
+                    if (D) {
                         output = 1;
                     } else {
                         output = 0;
                     }
                 }
             } else {
-                if (C == 1) {
-                    if (D == 1) {
+                if (C) {
+                    if (D) {
                         output = 1;
                     } else {
                         output = 0;
                     }
                 } else {
-                    if (D == 1) {
+                    if (D) {
                         output = 0;
                     } else {
                         output = 1;
@@ -53,29 +53,29 @@ public class DigitalCircuit {
                 }
             }
         } else {
-            if (B == 1) {
-                if (C == 1) {
-                    if (D == 1) {
+            if (B) {
+                if (C) {
+                    if (D) {
                         output = 0;
                     } else {
                         output = 1;
                     }
                 } else {
-                    if (D == 1) {
+                    if (D) {
                         output = 1;
                     } else {
                         output = 0;
                     }
                 }
             } else {
-                if (C == 1) {
-                    if (D == 1) {
+                if (C) {
+                    if (D) {
                         output = 1;
                     } else {
                         output = 0;
                     }
                 } else {
-                    if (D == 1) {
+                    if (D) {
                         output = 0;
                     } else {
                         output = 1;
