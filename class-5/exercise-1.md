@@ -11,7 +11,7 @@ public class GeometryCalculator {
      * @param length
      * @return
      */
-    public static double squareCircumference(double length) {
+    public static double squarePerimeter(double length) {
         // TODO - complete function
     }
 
@@ -26,16 +26,16 @@ public class GeometryCalculator {
 
     public static void main(String[] args) {
         double length = 5.0;
-        System.out.println(squareCircumference(length));
+        System.out.println(squarePerimeter(length));
         System.out.println(squareArea(length));
     }
 }
 ```
-4. Complete the code so that the program prints out the cirumference and area of a square with length `5`
-5. Complete the documentation (include the relevant formulas in your funciton description)
+4. Complete the code so that the program prints out the perimeter and area of a square with length `5`
+5. Complete the documentation (include the relevant formulas in your function description)
 
 ## Part 2 - Triangle
-Modify the previous code to add functions that calculate the circumference and area of a triangle. Print out the circumference and area of a triangle with base `3` and height `4`.
+Modify the previous code to add functions that calculate the perimeter and area of a triangle. Print out the perimeter and area of a triangle with base `3` and height `4`.
 
 ## Part 3 - Circle
-Modify the previous code to add functions that calculate the circumference and area of a circle. Print out the circumference and area of a circle radius `6.4`.
+Modify the previous code to add functions that calculate the perimeter and area of a circle. Print out the perimeter and area of a circle radius `6.4`.
