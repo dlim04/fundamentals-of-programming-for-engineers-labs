@@ -7,11 +7,13 @@ Create a program that prints a pattern using nested `for` loops.
 3. Print the numbers sequentially for each row.
 
 If user inputs 5 rows, the pattern should look like this:
+```java
 1
 1 2
 1 2 3
 1 2 3 4
 1 2 3 4 5
+```
 
 Hint: `System.out.print()` prints same line. `System.out.println()` prints on next row (Use after inner loop) 
 
