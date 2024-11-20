@@ -10,8 +10,8 @@ values of the first set of coordinates respectively, the next three
 elements are that of the next set of coordinates, and so on.
 
 Your task is to divide this array into a 2D array, where the inner array
-contains the (`x`, `y`, `z`) tuple and the outer array stores all of the
-(`x`, `y`, `z`) tuples.
+contains the `(x, y, z)` tuple and the outer array stores all of the
+`(x, y, z)` tuples.
 
 ### Code Snippet
 
