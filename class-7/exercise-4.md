@@ -16,7 +16,8 @@ the correct result.
 
 The lyrics will then be printed at the end of execution.
 
-Tip: When modifying the `stringBuilder` function, it may be helpful to refer
+> [!TIP]
+> When modifying the `stringBuilder` function, it may be helpful to refer
 to the comments above the function to understand what each argument is
 supposed to be used for.
 
