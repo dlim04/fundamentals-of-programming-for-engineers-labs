@@ -19,6 +19,7 @@ contains the `(x, y, z)` tuple and the outer array stores all of the
 public class CoordinateConverter {
     public static void main(String[] args) {
         int[] coordinates = {1, 2, 3, 2, 4, 6, 3, 6, 9, 4, 8, 12, 5, 10, 15, 6, 12, 18, 7, 14, 21};
+        int[][] coordinates3D = new int[coordinates.length / 3][3];
 
         // TODO: Convert these coordinates to a 2D array, with the (x, y, z) tuples stored separately
 
