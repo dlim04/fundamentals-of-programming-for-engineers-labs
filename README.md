@@ -13,3 +13,5 @@ Lab worksheets for the QUB EEECS "Fundamentals of Programming for Engineers" Sup
 - [Class 3](class-3/README.md)
 - [Class 4](class-4/README.md)
 - [Class 5](class-5/README.md)
+- [Class 6](class-6/readme.md)
+- [Class 7](class-7/README.md)
