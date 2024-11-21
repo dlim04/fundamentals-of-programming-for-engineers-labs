@@ -12,7 +12,7 @@ period should be calculated (as an integer) and printed.
 
 ```java
 public class TemperatureConverter {
-    public int celsiusToFahrenheit(int celsius) {
+    public static int celsiusToFahrenheit(int celsius) {
         return celsius * 9 / 5 + 32;
     }
 
