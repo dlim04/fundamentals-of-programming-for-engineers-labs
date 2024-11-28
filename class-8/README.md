@@ -221,7 +221,7 @@ The task can be broken down as follows:
 1. Read a row from the CSV file and store it as an array
 2. Calculate the contents of the mesh resistance matrix ($[R]$) based on each row and store the result in a 2D array
 3. Solve the matrix for $I_1$, $I_2$, $I_3$ and $I_4$ using Cramer's Rule and laplace expansion
-4. Print the results in the following form using `System.out.printf()`:
+4. Print the results in the following form using [`System.out.printf()`](https://docs.oracle.com/javase/8/docs/api/java/util/Formatter.html):
 ```
 Row: <row number>, I_1: <I_1 value>, I_2; <I_2 value>, I_3: <I_3 value>, I_4: <I_4 value>
 ```
