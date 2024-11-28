@@ -41,6 +41,23 @@ class CircuitSolver {
     }
 
     public static void main(String[] args) {
+//        double[][] smallMatrix = {{3, 2},
+//                                  {8, 9}};
+//        System.out.println(det2(smallMatrix));
+// //        Outputs: 11.0
+//
+//        double[][] medMatrix = {{3, 2, 7},
+//                                {8, 9, 2},
+//                                {6, 1, 4}};
+//        System.out.println(det3(medMatrix));
+// //        Outputs: -260.0
+//
+//         double[][] bigMatrix = {{3, 2, 7, 4},
+//                                 {8, 9, 2, 1},
+//                                 {6, 1, 4, 11},
+//                                 {3, 5, 2, 8}};
+//         System.out.println(det4(bigMatrix));
+// //        Outputs: -2630.0
         return;
     }
 }
