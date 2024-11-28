@@ -14,7 +14,7 @@ The table in the CSV file is formatted as follows:
 | 28        | 9         | 22        | 23        | 11        | 40        | 7         |
 | 28        | 31        | 30        | 50        | 19        | 6         | 5         |
 | ...       | ...       | ...       | ...       | ...       | ...       | ...       |
-| 45.1      | 20.37     | 44.5      | 92303     | 87843     | 71013     | 35248     |
+| 45.14     | 20.37     | 44.5      | 92303     | 87843     | 71013     | 35248     |
 
 Where each row represents a set of values you can solve $I_1$, $I_2$, $I_3$, and $I_4$ for.
 
