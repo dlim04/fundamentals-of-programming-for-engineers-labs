@@ -11,10 +11,10 @@ different values for $V_1$, $V_2$, $V_3$, $R_1$, $R_2$, $R_3$, and $R_4$.
 The table in the CSV file is formatted as follows:
 | V_1       | V_2       | V_3       | R_1       | R_2       | R_3       | R_4       |
 | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
-| $V_1$ 1   | $V_2$ 1   | $V_3$ 1   | $R_1$ 1   | $R_2$ 1   | $R_3$ 1   | $R_4$ 1   |
-| $V_1$ 2   | $V_2$ 2   | $V_3$ 2   | $R_1$ 2   | $R_2$ 2   | $R_3$ 2   | $R_4$ 2   |
+| 28        | 9         | 22        | 23        | 11        | 40        | 7         |
+| 28        | 31        | 30        | 50        | 19        | 6         | 5         |
 | ...       | ...       | ...       | ...       | ...       | ...       | ...       |
-| $V_1$ 100 | $V_2$ 100 | $V_3$ 100 | $R_1$ 100 | $R_2$ 100 | $R_3$ 100 | $R_4$ 100 |
+| 45.1      | 20.37     | 44.5      | 92303     | 87843     | 71013     | 35248     |
 
 Where each row represents a set of values you can solve $I_1$, $I_2$, $I_3$, and $I_4$ for.
 
@@ -129,8 +129,11 @@ using the following theorem:
 ```
 
 #### Finding the Determinant of a Matrix
+
+We can use the Laplace expansion to calculate the determinant of the matrix, whereby we multiply each factor in the top row by its cofactor and determinant, then sum the result. This means, to calculate the determinant of a 4x4 matrix, we need to calculate the 3x3 minor determinant of each element in the top row, and each of these minors requires their respective 2x2 minors to be calculated. The mathematical formulae are shown below.
+
 ##### 2x2 Matrices
-For 2x2 matrices:
+The Laplace expansion in the first row is:
 ```math
     \det(a) = |A| =
     \begin{vmatrix}
@@ -141,10 +144,8 @@ For 2x2 matrices:
     a_{11} a_{22} - a_{12} a_{21}
 ```
 
-##### Laplace Expansion
-For matrices with higher dimensionality we can use laplace expansion to calculate the determinant of the matrix.
-
-For a 3x3 matrix laplace expansion in the first row would be as follows:
+##### 3x3 Matrices
+The Laplace expansion in the first row is:
 ```math
     \det(A) = |A| =
         \begin{vmatrix}
@@ -173,13 +174,15 @@ For a 3x3 matrix laplace expansion in the first row would be as follows:
 where you would then calculate the determinant of each of the 2x2 minor matrices for each factor ($a_{11}$, $a_{12}$ and
 $a_{13}$).
 
-For a 4x4 matrix laplace expansion in the first row would be as follows:
+##### 4x4 Matrices
+The Laplace expansion in the first row is:
 ```math
     \det(A) = |A| =
     \begin{vmatrix}
         a_{11} & a_{12} & a_{13} & a_{14} \\
         a_{21} & a_{22} & a_{23} & a_{24} \\
-        a_{31} & a_{32} & a_{33} & a_{34}
+        a_{31} & a_{32} & a_{33} & a_{34} \\
+        a_{41} & a_{42} & a_{43} & a_{44}
     \end{vmatrix}
     =
     a_{11}
