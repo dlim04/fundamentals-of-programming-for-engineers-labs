@@ -55,7 +55,7 @@ class CircuitSolverExtension {
     }
 
     /**
-     * Use cramer's rule to solve the nth unknown x variable in the form:
+     * Use cramer's rule to solve the nth unknown x variable of a 4x4 matrix in the form:
      * 
      * A • x = B
      * 
@@ -68,19 +68,25 @@ class CircuitSolverExtension {
      * @return x_n
      */
     public static double solve(double[][] a, double detA, double[] b, int n) {
-        double[][] matrix = new double[4][4];
+        double[][] augmentedMatrix = new double[4][4];
 
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix.length; j++) {
+        // Create the augmented matrix
+        // For each row
+        for (int i = 0; i < augmentedMatrix.length; i++) {
+            // For each element copy it to the augmented matrix excluding the
+            // column we're solving for
+            for (int j = 0; j < augmentedMatrix.length; j++) {
                 if (j == n) {
-                    matrix[i][j] = b[i]; 
+                    // In the column we're solving for replace the column with
+                    // the B matrix
+                    augmentedMatrix[i][j] = b[i]; 
                 } else {
-                    matrix[i][j] = a[i][j];
+                    augmentedMatrix[i][j] = a[i][j];
                 }
             }
         }
 
-        return det(matrix, 4) / detA;
+        return det(augmentedMatrix, 4) / detA;
     }
 
     /**
