@@ -228,3 +228,6 @@ Row: <row number>, I_1: <I_1 value>, I_2; <I_2 value>, I_3: <I_3 value>, I_4: <I
 5. Store each result in a 2D array
 6. Read the next row until the end of the file is read
 7. Save the results to another CSV file
+
+### Solutions
+[Solutions](solutions/README.md)
