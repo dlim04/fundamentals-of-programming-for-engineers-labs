@@ -178,7 +178,7 @@ class CircuitSolver {
         double testResult = det3(testMatrix);
         boolean testPassed = testResult == -260.0;
 
-        System.out.printf("det2() of  3 2 7  returned: %.2f\n          [8 9 2]\n           6 1 4\n", testResult);
+        System.out.printf("det3() of  3 2 7  returned: %.2f\n          [8 9 2]\n           6 1 4\n", testResult);
 
         if (testPassed) {
             System.out.println("Test passed");
@@ -201,7 +201,7 @@ class CircuitSolver {
         double testResult = det4(testMatrix);
         boolean testPassed = testResult == -2630.0;
 
-        System.out.printf("det2() of  3 2 7 4   returned: %.2f\n          [8 9 2 1 ]\n           6 1 4 11\n           3 5 2 8\n", testResult);
+        System.out.printf("det4() of  3 2 7 4   returned: %.2f\n          [8 9 2 1 ]\n           6 1 4 11\n           3 5 2 8\n", testResult);
 
         if (testPassed) {
             System.out.println("Test passed");
