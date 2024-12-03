@@ -170,8 +170,8 @@ class CircuitSolverExtension {
     }
 
     public static void main(String[] args) {
-        // Determinant function tests
-        testDet();
+        // // Determinant function tests
+        // testDet();
 
         double[][] solutions = new double[100][4];
 
