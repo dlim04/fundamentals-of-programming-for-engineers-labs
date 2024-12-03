@@ -55,7 +55,7 @@ class CircuitSolverExtension {
     }
 
     /**
-     * Use cramer's rule to solve the nth unknown x variable of a 4x4 matrix in the form:
+     * Use cramer's rule to solve the nth unknown x variable of a 1x4 matrix in the form:
      * 
      * A • x = B
      * 
